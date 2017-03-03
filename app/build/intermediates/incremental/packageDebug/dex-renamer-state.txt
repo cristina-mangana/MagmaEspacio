@@ -1,0 +1,7 @@
+#Fri Mar 03 02:06:11 CET 2017
+base.0=C\:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9a9a3e31403bf29244328133067331332a7b8b1d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3f0a1c5b63cfb5fff6f835fe4c414e62f8acd72d\\classes.dex
+base.1=C\:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3f0a1c5b63cfb5fff6f835fe4c414e62f8acd72d
+file.0=C\:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9a9a3e31403bf29244328133067331332a7b8b1d\\classes.dex

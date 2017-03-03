@@ -1,0 +1,158 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="head">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/bigMargin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/headSize</item>
+    </style>
+
+    <style name="viewFlipper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="horizontalScroll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layoutHorizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="layoutVertical">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="servicesLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="topLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/separation</item>
+    </style>
+
+    <style name="separationLine">
+        <item name="android:layout_width">@dimen/lineWidth</item>
+        <item name="android:layout_height">@dimen/lineHeight</item>
+        <item name="android:layout_margin">@dimen/smallMargin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/transparent_line</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:layout_width">@dimen/separatorWidth</item>
+        <item name="android:layout_height">@dimen/separatorHeight</item>
+        <item name="android:layout_marginTop">@dimen/separation</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="InternalScroll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/mediumMargin</item>
+    </style>
+
+    <style name="nameAboutUs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/smallMargin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="compAboutUs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/smallMargin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/subtextSize</item>
+    </style>
+
+    <style name="service">
+        <item name="android:layout_width">@dimen/nullMargin</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="contact">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/smallMargin</item>
+        <item name="android:drawablePadding">@dimen/smallMargin</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorLink">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/linkSize</item>
+    </style>
+
+    <style name="imageBottom">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">@dimen/mediumMargin</item>
+    </style>
+
+    <style name="slogan">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/mediumMargin</item>
+        <item name="android:paddingRight">@dimen/mediumMargin</item>
+        <item name="android:paddingTop">@dimen/extrabigMargin</item>
+        <item name="android:paddingBottom">@dimen/extrabigMargin</item>
+        <item name="android:textSize">@dimen/headSize</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/mediumMargin</item>
+        <item name="android:layout_marginRight">@dimen/mediumMargin</item>
+        <item name="android:layout_marginBottom">@dimen/bigMargin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+
+    <style name="imageBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
