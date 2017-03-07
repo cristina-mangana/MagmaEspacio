@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xhdpi\\manu.png"
     },
     {
-        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\map.png",
-        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xhdpi\\map.png"
-    },
-    {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_phone_white_24dp.png",
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xhdpi\\ic_phone_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\map.png",
+        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xhdpi\\map.png"
     },
     {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ana.png",

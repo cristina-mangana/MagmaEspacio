@@ -295,6 +295,7 @@
     <dimen name="lineWidth">220dp</dimen>
     <dimen name="linkSize">18sp</dimen>
     <dimen name="mediumMargin">16dp</dimen>
+    <dimen name="menu">48dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -1896,7 +1897,7 @@
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textSize">@dimen/textSize</item>
     </style>
     <style name="servicesLayout">

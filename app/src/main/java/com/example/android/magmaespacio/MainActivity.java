@@ -7,18 +7,20 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.PopupMenu;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.SuperscriptSpan;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import static android.text.Html.*;
@@ -354,5 +356,49 @@ public class MainActivity extends AppCompatActivity {
         ScrollView layoutmain = (ScrollView) findViewById(R.id.activity_main);
         RelativeLayout main = (RelativeLayout) findViewById(R.id.mainLayout);
         layoutmain.smoothScrollTo(0, main.getBottom());
+    }
+
+    public void menu (View view){
+        Button buttonMenu = (Button) findViewById(R.id.menu_button);
+        //Creating the instance of PopupMenu
+        PopupMenu popupMenu = new PopupMenu(MainActivity.this, buttonMenu);
+        //Inflating the Popup using xml file
+        popupMenu.getMenuInflater().inflate(R.menu.popup_menu, popupMenu.getMenu());
+        //registering popup with OnMenuItemClickListener
+        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            public boolean onMenuItemClick(MenuItem item) {
+                int id = item.getItemId();
+                switch(id) {
+                    case R.id.whatIsMenu:
+                        ScrollView layoutmain1 = (ScrollView) findViewById(R.id.activity_main);
+                        RelativeLayout main = (RelativeLayout) findViewById(R.id.mainLayout);
+                        layoutmain1.smoothScrollTo(0, main.getBottom());
+                        return true;
+                    case R.id.aboutUsMenu:
+                        ScrollView layoutmain2 = (ScrollView) findViewById(R.id.activity_main);
+                        TextView slogan = (TextView) findViewById(R.id.slogan);
+                        layoutmain2.smoothScrollTo(0, slogan.getBottom());
+                        return true;
+                    case R.id.servicesMenu:
+                        ScrollView layoutmain3 = (ScrollView) findViewById(R.id.activity_main);
+                        LinearLayout servicesTop = (LinearLayout) findViewById(R.id.servicesLayout);
+                        layoutmain3.smoothScrollTo(0, servicesTop.getTop());
+                        return true;
+                    case R.id.theSpaceMenu:
+                        ScrollView layoutmain4 = (ScrollView) findViewById(R.id.activity_main);
+                        LinearLayout servicesBottom = (LinearLayout) findViewById(R.id.servicesLayout);
+                        layoutmain4.smoothScrollTo(0, servicesBottom.getBottom());
+                        return true;
+                    case R.id.contactUsMenu:
+                        ScrollView layoutmain5 = (ScrollView) findViewById(R.id.activity_main);
+                        RelativeLayout contact = (RelativeLayout) findViewById(R.id.contactLayout);
+                        layoutmain5.smoothScrollTo(0, contact.getTop());
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+        });
+        popupMenu.show();//showing popup menu
     }
 }

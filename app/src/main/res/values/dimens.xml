@@ -20,5 +20,6 @@
     <dimen name="separation">56dp</dimen>
     <dimen name="separatorWidth">100dp</dimen>
     <dimen name="lineWidth">220dp</dimen>
+    <dimen name="menu">48dp</dimen>
 
 </resources>

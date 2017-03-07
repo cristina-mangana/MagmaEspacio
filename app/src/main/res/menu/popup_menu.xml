@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/whatIsMenu"
+        android:title="@string/what_is"/>
+
+    <item
+        android:id="@+id/aboutUsMenu"
+        android:title="@string/about_us"/>
+
+    <item
+        android:id="@+id/servicesMenu"
+        android:title="@string/services"/>
+
+    <item
+        android:id="@+id/theSpaceMenu"
+        android:title="@string/the_space"/>
+
+    <item
+        android:id="@+id/contactUsMenu"
+        android:title="@string/contact"/>
+
+</menu>
