@@ -368,31 +368,27 @@ public class MainActivity extends AppCompatActivity {
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             public boolean onMenuItemClick(MenuItem item) {
                 int id = item.getItemId();
+                ScrollView layoutmain = (ScrollView) findViewById(R.id.activity_main);
                 switch(id) {
                     case R.id.whatIsMenu:
-                        ScrollView layoutmain1 = (ScrollView) findViewById(R.id.activity_main);
                         RelativeLayout main = (RelativeLayout) findViewById(R.id.mainLayout);
-                        layoutmain1.smoothScrollTo(0, main.getBottom());
+                        layoutmain.smoothScrollTo(0, main.getBottom());
                         return true;
                     case R.id.aboutUsMenu:
-                        ScrollView layoutmain2 = (ScrollView) findViewById(R.id.activity_main);
                         TextView slogan = (TextView) findViewById(R.id.slogan);
-                        layoutmain2.smoothScrollTo(0, slogan.getBottom());
+                        layoutmain.smoothScrollTo(0, slogan.getBottom());
                         return true;
                     case R.id.servicesMenu:
-                        ScrollView layoutmain3 = (ScrollView) findViewById(R.id.activity_main);
                         LinearLayout servicesTop = (LinearLayout) findViewById(R.id.servicesLayout);
-                        layoutmain3.smoothScrollTo(0, servicesTop.getTop());
+                        layoutmain.smoothScrollTo(0, servicesTop.getTop());
                         return true;
                     case R.id.theSpaceMenu:
-                        ScrollView layoutmain4 = (ScrollView) findViewById(R.id.activity_main);
                         LinearLayout servicesBottom = (LinearLayout) findViewById(R.id.servicesLayout);
-                        layoutmain4.smoothScrollTo(0, servicesBottom.getBottom());
+                        layoutmain.smoothScrollTo(0, servicesBottom.getBottom());
                         return true;
                     case R.id.contactUsMenu:
-                        ScrollView layoutmain5 = (ScrollView) findViewById(R.id.activity_main);
                         RelativeLayout contact = (RelativeLayout) findViewById(R.id.contactLayout);
-                        layoutmain5.smoothScrollTo(0, contact.getTop());
+                        layoutmain.smoothScrollTo(0, contact.getTop());
                         return true;
                     default:
                         return false;

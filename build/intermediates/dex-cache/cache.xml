@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a9b35c9912c44737d69a3240e3ae6cf2590858e6">
+        sha1="1d7315c21a1c3fe354c2615d668516a91c451a7b">
         <dex dex="C:\Users\Cristina\AndroidStudioProjects\MagmaEspacio\app\build\intermediates\pre-dexed\debug\instant-run_9a9a3e31403bf29244328133067331332a7b8b1d.jar" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="25e6b1fd8cc50a8b878c9badf3032e8133165ec6">
+        sha1="874abed09e8254cf3e46c91b42f3692a41371d10">
         <dex dex="C:\Users\Cristina\AndroidStudioProjects\MagmaEspacio\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f0a1c5b63cfb5fff6f835fe4c414e62f8acd72d.jar" />
     </item>
 

@@ -5,29 +5,29 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="30219160608507"
+    timestamp="106896217808826"
     token="3387296343941029842"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1420" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1561" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2866" />
 
     <artifact
         location="C:\Users\Cristina\AndroidStudioProjects\MagmaEspacio\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="352556262506628"
+        timestamp="106896217808826"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Cristina\AndroidStudioProjects\MagmaEspacio\app\build\outputs\apk\app-debug.apk"

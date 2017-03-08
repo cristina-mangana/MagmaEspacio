@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-hdpi\\ic_event_white.png"
     },
     {
-        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\martinho.png",
-        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-hdpi\\martinho.png"
-    },
-    {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\maria.png",
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-hdpi\\maria.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\martinho.png",
+        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-hdpi\\martinho.png"
     },
     {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background.png",
