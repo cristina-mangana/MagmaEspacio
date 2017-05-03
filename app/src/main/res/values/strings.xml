@@ -1,24 +1,29 @@
 <resources>
+    <!-- App Name [NO TRANSLATE]-->
     <string name="app_name">Magma Espacio</string>
 
-    <!-- Titles -->
+    <!-- Section titles [CHAR LIMIT=20]-->
     <string name="what_is">What is Magma?</string>
     <string name="about_us">About Us</string>
     <string name="services">Services</string>
     <string name="the_space">The Space</string>
     <string name="contact">Contact Us</string>
 
-    <!-- Principal Layout -->
+    <!-- Principal Layout: Cover -->
+    <!-- First subtitle [NO TRANSLATE]-->
     <string name="one">coworking - magma espacio</string>
+    <!-- Second subtitle [NO TRANSLATE]-->
+    <string name="two">ourense</string>
+    <!-- Changing titles, first and second lines [CHAR LIMIT=15]-->
     <string name="title1a">different</string>
     <string name="title1b">spaces</string>
     <string name="title2a">to work</string>
     <string name="title2b">differently</string>
-    <string name="two">ourense</string>
 
+    <!-- Space Slogan [CHAR LIMIT=NONE]-->
     <string name="slogan">\"Colaborate, share, create = Coworking!\"</string>
 
-    <!-- Coworkers -->
+    <!-- Coworkers names [NO TRANSLATE]-->
     <string name="martinho">Martiño Fortes</string>
     <string name="maria">María Santos</string>
     <string name="manu">Manu Álvarez</string>
@@ -35,6 +40,7 @@
     <string name="ana">Ana Zon</string>
     <string name="juan">Juan Luis Cidre</string>
 
+    <!-- Coworkers companies [NO TRANSLATE]-->
     <string name="equipoeme">Equipoeme Estudio</string>
     <string name="planb">PlanB Estudio Gráfico</string>
     <string name="dinanideco">Dinanideco</string>
@@ -47,17 +53,31 @@
     <string name="anazon">Ana Zon by Drumbalo</string>
     <string name="cta">CTA</string>
 
-    <!-- Services -->
+    <!-- Services [CHAR LIMIT=30]-->
     <string name="stations">Workstations</string>
     <string name="meeting">Meeting Room</string>
     <string name="domiciliation">Business Domiciliation</string>
     <string name="events">Workshops and Events</string>
 
-    <!-- Contanct -->
+    <!-- Contact [CHAR LIMIT=NONE]-->
     <string name="location">Bedoya 27 Bj. Ourense, 32004, Galicia</string>
     <string name="phone">(+34) 988 61 40 54</string>
     <string name="mail">hola@magmaespacio.es</string>
     <string name="timetable">All weekdays 09:00&#8211;20:00</string>
     <string name="web">www.magmaespacio.es</string>
+
+    <!-- Content Description [CHAR LIMIT=NONE]-->
+    <string name="downArrow_cd">Scroll down</string>
+    <string name="coworker_cd">Coworker image</string>
+    <string name="magmaespacio1_cd">Space image 1</string>
+    <string name="magmaespacio2_cd">Space image 2</string>
+    <string name="magmaespacio3_cd">Space image 3</string>
+    <string name="magmaespacio4_cd">Space image 4</string>
+    <string name="magmaespacio5_cd">Space image 5</string>
+    <string name="magmaespacio6_cd">Space image 6</string>
+    <string name="map_cd">Space location shown in a map</string>
+    <string name="twitter_cd">Twitter profile</string>
+    <string name="facebook_cd">Facebook page</string>
+    <string name="pinterest_cd">Pinterest profile</string>
 
 </resources>

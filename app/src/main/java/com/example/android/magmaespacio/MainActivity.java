@@ -53,12 +53,6 @@ public class MainActivity extends AppCompatActivity {
         spannable.setSpan(new ForegroundColorSpan(Color.parseColor("#EF6C00")), 162, 178, 0);
         textViewDescription.setText(spannable);
 
-        //Add maps activity on link
-        TextView textViewLocation = (TextView) findViewById(R.id.location);
-        textViewLocation.setText(fromHtml("<a href=\"http://maps.google.com/maps?q=Magma+Espacio,+Ourense,+32004,+Galicia\">" +
-                "Bedoya 27 Bj. Ourense, 32004, Galicia" +"</a>"));
-        textViewLocation.setMovementMethod(LinkMovementMethod.getInstance());
-
         // Set the font's path
         String fontPathRobotoMedium = "fonts/Roboto-Medium.ttf";
         String fontPathRobotoRegular = "fonts/Roboto-Regular.ttf";
@@ -109,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewMeeting = (TextView) findViewById(R.id.meeting);
         TextView textViewDomiciliation = (TextView) findViewById(R.id.domiciliation);
         TextView textViewEvents = (TextView) findViewById(R.id.events);
+        TextView textViewLocation = (TextView) findViewById(R.id.location);
         TextView textViewPhone = (TextView) findViewById(R.id.phone);
         TextView textViewMail = (TextView) findViewById(R.id.mail);
         TextView textViewTimetable = (TextView) findViewById(R.id.timetable);
@@ -169,9 +164,17 @@ public class MainActivity extends AppCompatActivity {
         textViewMail.setTypeface(typeFaceRobotoRegular);
         textViewTimetable.setTypeface(typeFaceRobotoRegular);
         textViewWeb.setTypeface(typeFaceRobotoRegular);
+
+        //Add maps activity on link
+        textViewLocation.setText(fromHtml("<a href=\"http://maps.google.com/maps?q=Magma+Espacio,+Ourense,+32004,+Galicia\">" +
+                "Bedoya 27 Bj. Ourense, 32004, Galicia" +"</a>"));
+        textViewLocation.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
-    public int getStatusBarHeight() {
+    /** This method gets the height of the status bar, in order to subtract it to device screen
+     * height and get the total available height
+     */
+    private int getStatusBarHeight() {
         int result = 0;
         int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
         if (resourceId > 0) {
@@ -180,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
         return result;
     }
 
-    //Function onClick
+    //Methods see and notsee responds on clicks on coworkers images and/or information
     public void seeMartinho (View view){
         RelativeLayout layoutMartinho = (RelativeLayout) findViewById(R.id.textMartinho);
         layoutMartinho.setVisibility(View.VISIBLE);
@@ -316,6 +319,9 @@ public class MainActivity extends AppCompatActivity {
         layoutJuan.setVisibility(View.INVISIBLE);
     }
 
+    /** Social network methods open the company social network pages on specific app (if it's
+     * available on the device) or else on navigator.
+     */
     public void facebook (View view){
         try {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/MagmaEspacio/"));
@@ -343,6 +349,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /** This method opens the company location on Google Maps App if it's
+     * available on the device) or else on navigator.
+     */
     public void map (View view){
         try {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://maps.google.com/maps?q=Magma+Espacio,+Ourense,+32004,+Galicia"));
@@ -352,12 +361,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //This method scrolls to the first section from the cover page.
     public void scroll (View view){
         ScrollView layoutmain = (ScrollView) findViewById(R.id.activity_main);
         RelativeLayout main = (RelativeLayout) findViewById(R.id.mainLayout);
         layoutmain.smoothScrollTo(0, main.getBottom());
     }
 
+    //This method creates a popup Menu in which user can select a section to scroll to.
     public void menu (View view){
         Button buttonMenu = (Button) findViewById(R.id.menu_button);
         //Creating the instance of PopupMenu
