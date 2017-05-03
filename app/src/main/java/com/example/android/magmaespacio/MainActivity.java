@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Full-screen layout: http://stackoverflow.com/questions/23158072/full-screen-layout-in-scroll-view
         //Get the device screen height
         Point size = new Point();
         getWindowManager().getDefaultDisplay().getSize(size);
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         ViewGroup.LayoutParams params = layout.getLayoutParams();
         params.height = screenHeight - getStatusBarHeight();
 
-        //Superscript Text and Change Color
+        //Superscript Text and Change Color: https://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling
         TextView textViewDescription = (TextView) findViewById(R.id.description);
         SpannableStringBuilder spannable = new SpannableStringBuilder("Magma is a 300 m2 Coworking space in the center of Ourense, designed to create a collaborative work environment for professionals (freelancers, entrepreneurs and small businesses).");
         spannable.setSpan(new SuperscriptSpan(), 16, 17, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         spannable.setSpan(new ForegroundColorSpan(Color.parseColor("#EF6C00")), 162, 178, 0);
         textViewDescription.setText(spannable);
 
+        //Custom fonts: https://discussions.udacity.com/t/is-there-a-way-to-add-a-new-font-only-with-xml-without-using-java-code/214891/6
         // Set the font's path
         String fontPathRobotoMedium = "fonts/Roboto-Medium.ttf";
         String fontPathRobotoRegular = "fonts/Roboto-Regular.ttf";
@@ -165,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         textViewTimetable.setTypeface(typeFaceRobotoRegular);
         textViewWeb.setTypeface(typeFaceRobotoRegular);
 
-        //Add maps activity on link
+        //Add maps activity on link. Linkify TextView: http://android.okhelp.cz/linkify-text-link-url-in-textview-text-android-example/
         textViewLocation.setText(fromHtml("<a href=\"http://maps.google.com/maps?q=Magma+Espacio,+Ourense,+32004,+Galicia\">" +
                 "Bedoya 27 Bj. Ourense, 32004, Galicia" +"</a>"));
         textViewLocation.setMovementMethod(LinkMovementMethod.getInstance());
@@ -321,6 +323,7 @@ public class MainActivity extends AppCompatActivity {
 
     /** Social network methods open the company social network pages on specific app (if it's
      * available on the device) or else on navigator.
+     * Intents: https://developer.android.com/reference/android/content/Intent.html
      */
     public void facebook (View view){
         try {
@@ -351,6 +354,7 @@ public class MainActivity extends AppCompatActivity {
 
     /** This method opens the company location on Google Maps App if it's
      * available on the device) or else on navigator.
+     * Intents: https://developer.android.com/reference/android/content/Intent.html
      */
     public void map (View view){
         try {
@@ -371,6 +375,7 @@ public class MainActivity extends AppCompatActivity {
     //This method creates a popup Menu in which user can select a section to scroll to.
     public void menu (View view){
         Button buttonMenu = (Button) findViewById(R.id.menu_button);
+        //Popup tutorial: https://www.javatpoint.com/android-popup-menu-example
         //Creating the instance of PopupMenu
         PopupMenu popupMenu = new PopupMenu(MainActivity.this, buttonMenu);
         //Inflating the Popup using xml file

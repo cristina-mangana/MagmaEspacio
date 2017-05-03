@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Fade in/out animations: http://android-er.blogspot.com.es/2012/02/animate-fade-infade-out-by-changing.html-->
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha
         android:fromAlpha="0.0"

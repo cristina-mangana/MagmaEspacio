@@ -52,6 +52,7 @@
                     style="@style/separationLine"
                     tools:ignore="ContentDescription" />
 
+                <!-- ViewFlipper tutorial: http://abhiandroid.com/ui/viewflipper-->
                 <ViewFlipper
                     style="@style/viewFlipper"
                     android:autoStart="true"
