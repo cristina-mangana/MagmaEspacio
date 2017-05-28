@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xxxhdpi\\magmaespacio3.png"
     },
     {
-        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\gory.png",
-        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xxxhdpi\\gory.png"
-    },
-    {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\twitter.png",
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xxxhdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\gory.png",
+        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\src\\main\\res\\drawable-xxxhdpi\\gory.png"
     },
     {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\magmaespacio6.png",

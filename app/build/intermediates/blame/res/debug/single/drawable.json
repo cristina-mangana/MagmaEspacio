@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Cristina\\AndroidStudioProjects\\MagmaEspacio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\magma1.png",
